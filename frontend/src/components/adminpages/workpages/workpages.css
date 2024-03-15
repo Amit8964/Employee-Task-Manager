@@ -1,0 +1,314 @@
+
+
+/* add employee css */
+.add-employee-container{
+
+display: flex;
+justify-content: center;
+align-items: center;
+
+    position: fixed;
+    right: 0;
+    left: 15vw;
+    width: 80vw;
+    height: 100vh;
+}
+
+.add-employee-main{
+
+
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: min(80vw, 900px );
+    margin-right: 12vw;
+    box-shadow: .5px .5px 20px .05px black;
+   
+
+
+
+}
+
+.add-employee-box{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: auto;
+    
+
+}
+
+.add-employee-box #inpt{
+
+    padding: 1.4rem 1rem;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    outline: none;
+    border-radius: 4px;
+    width: 100%;
+    background-color: #dedddd;
+    transition: all .5s ease-in-out;
+    font-size: 2rem;
+    color: rgb(15, 15, 15);
+
+}
+
+.add-employee-box>* {
+
+margin-top: 2rem;
+
+
+}
+
+.add-employee{
+    transition: all .5s ease-in-out;
+}
+.add-employee:hover{
+
+transform: translateY(-5px);
+
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+/* all employee jsx css */
+
+
+.all-employee-container{
+
+    position: fixed;
+    right: 0;
+    left: 20vw;
+    width: 80vw;
+    height: 80vh;
+    margin-top: 100px;
+
+}
+
+.all-employee-container table{
+
+    margin-left: 10vw;
+    
+}
+.all-employee-container table tr th h1, td h1{
+
+    font-weight: 600;
+    font-size: 1.5rem;
+
+}
+.all-employee-container table{
+    border: 2px solid black;
+}
+.all-employee-container table th, td{
+    border: 2px solid black;
+   height:50px;
+   width: 180px;
+  text-align: center;
+}
+.all-employee-container table td h1{
+    font-weight: 400;
+}
+.table-btn{
+
+    padding: 1rem 4rem;
+    background:yellow;
+    border: 2px solid yellow;
+    border-radius: 5px;
+    font-size: 1.5rem;
+    cursor: pointer;
+    transition: all .5s ease-in-out;
+
+
+}
+.table-btn:hover{
+
+transform: translateY(-3px);
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+            /* add task css */
+
+
+.add-task-container{
+
+    display: flex;
+justify-content: center;
+align-items: center;
+
+    position: fixed;
+    right: 0;
+    left: 15vw;
+    width: 80vw;
+    height: 100vh;
+    scrollbar-width: none; /* Hide scrollbar in Firefox */
+    -ms-overflow-style: none;
+padding-bottom: 5rem;
+padding-top: 5rem;
+
+}
+
+.add-task-main{
+
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: min(80vw, 700px );
+    margin-right: 12vw;
+    margin-top: 10rem;
+    box-shadow: .5px .5px 20px .05px black;
+    scrollbar-width: none; /* Hide scrollbar in Firefox */
+    -ms-overflow-style: none;
+   
+
+}
+
+.add-task-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: auto;
+    height: auto;
+
+
+}
+.add-task-box div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+}
+.add-task-box div p{
+    font-size: 1.7rem;
+    margin-top: 1rem;
+}
+
+.add-task-box div input{
+    padding: 1.4rem 1rem;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    outline: none;
+    border-radius: 4px;
+    width: 100%;
+    background-color: #dedddd;
+    transition: all .5s ease-in-out;
+    font-size: 2rem;
+    color: rgb(15, 15, 15);
+
+}
+
+#select option{
+
+display: flex;
+justify-content: center;
+align-items: center;
+font-size: 2rem;
+
+}
+
+#select{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+    margin-left: 2rem;
+    background-color: #dedddd;
+    color: #333;
+    font-family: Arial, sans-serif;
+    font-size: 2rem;
+    border: 1px solid #ccc;
+    width: 80%;
+    padding: 1rem 0;
+    text-align: center;
+    outline: none; /* Remove the outline when focused */
+    cursor: pointer;
+
+
+}
+
+#addtask-btn{
+
+margin-top: 5rem;
+}
+
+
+
+
+
+
+
+                  /* all task css */
+
+
+
+
+
+
+                  .all-task-container{
+
+                    position: fixed;
+                    right: 0;
+                    left: 16vw;
+                    width: 80vw;
+                    height: 80vh;
+                    margin-top: 100px;
+                
+                }
+                
+             
+                .all-task-container table tr th h1, td h1{
+                
+                    font-weight: 600;
+                    font-size: 1.5rem;
+                
+                }
+                .all-task-container table{
+                    border: 2px solid black;
+                }
+                .all-task-container table th, td{
+                    border: 2px solid black;
+                   height:50px;
+                   width: 180px;
+                  text-align: center;
+                }
+                .all-task-container table td h1{
+                    font-weight: 400;
+                }
+           
+
+
+
+
+
+                /* code for emlpoyee task update */
+
+ #select-x{
+
+    width:20vw ;
+    height: 40px;
+    background-color: #d8d4d4;
+    font-size: 1.8rem;
+
+ }               
